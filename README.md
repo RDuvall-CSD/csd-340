@@ -1,6 +1,8 @@
-# csd-340
 <h1>CSD 340 Web Development with HTML and CSS</h1>
 
 <h2>Contributors</h2>
-*Robert Duvall
-*Sue Sampson
+<ol>
+  <li>Robert Duvall</li>
+  <li>Sue Sampson</li>
+</ol>
+
