@@ -1,0 +1,124 @@
+@font-face 
+{
+    font-family: 'Oswald, Verdana, Arial, sans-serif';
+    src: url('Oswald-Medium.woff2') format('woff2'),
+        url('Oswald-Medium.woff') format('woff'),
+        url('Oswald-Medium.ttf') format('truetype'),
+        url('Oswald-Medium.svg#Oswald-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'Oswald, Verdana, Arial, sans-serif';
+    src: url('Oswald-Regular.woff2') format('woff2'),
+        url('Oswald-Regular.woff') format('woff'),
+        url('Oswald-Regular.ttf') format('truetype'),
+        url('Oswald-Regular.svg#Oswald-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'Oswald, Verdana, Arial, sans-serif';
+    src: url('Oswald-Light.woff2') format('woff2'),
+        url('Oswald-Light.woff') format('woff'),
+        url('Oswald-Light.ttf') format('truetype'),
+        url('Oswald-Light.svg#Oswald-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'Oswald, Verdana, Arial, sans-serif';
+    src: url('Oswald-Bold.woff2') format('woff2'),
+        url('Oswald-Bold.woff') format('woff'),
+        url('Oswald-Bold.ttf') format('truetype'),
+        url('Oswald-Bold.svg#Oswald-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1
+{
+    text-align:center;
+    /*font-family:'Oswald', Verdana, Arial, sans-serif;*/
+}
+
+h3
+{
+    font-weight: 500;
+}
+
+#favorite-books
+{  
+    
+    width: 45%;
+    float: left;
+    list-style-position: inside;
+    font-family:'Oswald, Verdana, Arial, sans-serif';
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#what-i-learned
+{
+    width: 45%;
+    float: right;
+    list-style: inside;
+    font-family:'Oswald, Verdana, Arial, sans-serif';
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#last-div
+{
+    width: 100%;
+    margin-top: 60%;  
+    margin-bottom: 20%;  
+    float: right;
+}
+
+ol
+{
+    font-weight: 300;
+}
+
+ul
+{
+    list-style-type: upper-roman;
+    font-weight: 300;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+#favorite-site 
+{
+    font-family: 'Oswald, Verdana, Arial, sans-serif';
+    text-decoration: none;
+}
+
+#to-the-top
+{
+    float: right;
+    font-family: 'Oswald, Verdana, Arial, sans-serif';
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
