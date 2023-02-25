@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css"  href="styles.css">
+        
+        <title>My bioSite</title>
+    </head>
+    <body>
+        <header><h1>bioSite: Robert</h1></header>
+        
+        <div id= "navbar">
+        
+            <div class = "nav-grid-container">
+            
+               
+            
+                <div class = "nav-grid-item">
+                    
+                    <a href="#hobbies-anchor" target="_self"><img src="buttons/button_hobbies.png" alt="Hobbies Button"></a>
+                </div>
+                
+                <div class = "nav-grid-item">
+                    
+                    <a href="#experience-anchor" target="_self"><img src="buttons/button_experience.png" alt="Experience Button"></a>
+                
+                </div> 
+                
+                <div class = "nav-grid-item">
+                    
+                    <a href="#contact-anchor" target="_self"><img src="buttons/button_contact_large.png" alt="Contact Button"></a>
+                    
+                </div>
+            
+            </div> 
+        </div>
+            
+        <div>
+            <h2 id="hobbies-anchor" padding-top:100px>Hobbies</h2>
+            
+            <div class="hobbies-grid-container">
+                
+                <div class="hobbies-grid-item">
+                    
+                    <div class="card">
+                        
+                        <div class="card-title">
+                            Golfing
+                        </div>
+                        
+                        <div class="card-content">
+                            <figure>
+                                
+                                <img id="golf_image" src="images/golf.jpg" alt="Golf Image">
+                                <figcaption>Out on the course</figcaption>
+                                
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hobbies-grid-item">
+                    
+                    <div class="card">
+                        
+                        <div class="card-title">
+                            Pets
+                        </div>
+                        
+                        <div class="card-content">
+                            <figure>               
+                                        
+                                <img id="bitty" src="images/lil_bit.jpg" alt="Lil` Bit">
+                                <figcaption>Lil` Bit</figcaption>
+                                
+                            </figure>
+                            
+                            <figure>
+                                
+                                <img id="mr_mann" src="images/mr_mann.jpg" alt="Mr. Mann">
+                                <figcaption>Mr. Mann</figcaption>
+                                
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hobbies-grid-item">
+                    
+                    <div class="card">
+                        
+                        <div class="card-title">
+                            Gaming
+                        </div>
+                        
+                        <div class="card-content">
+                            <figure>
+                                
+                                <img id="computer" src="images/computer.png" alt="Computer Desk">
+                                <figcaption>PC Gaming Station</figcaption>
+                                
+                            </figure>
+                        </div>
+                    </div>  
+                </div>    
+            </div>
+        </div>
+        
+        <div>
+            <h2 id="experience-anchor">Experience</h2>
+            
+            <div class="experience-grid-container">
+                <div class = "experience-grid-item">
+                    <div class="card">
+                    
+                        <div class="card-title">
+                            Tutor
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                I have been a tutor for 4 years now. I enjoy working with the students on a daily basis and helping them
+                                learn. Next year I will be stepping up past that role and helping them as an instructor.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+                <div class="experience-grid-item">
+                    <div class="card">
+                        <div class="card-title">
+                            Substitute
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                I started subbing shortly after the schools opened back up from COVID. I am not a huge fan of high school
+                                or middle school kids.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience-grid-item">
+                    <div class="card">
+                        <div class="card-title">
+                            Cook
+                        </div>
+                        <div class="card-content">
+                            <p>
+                               I cooked for 20 years. I have cooked everywhere, from several Hilton hotels, to 
+                               the local Arbys that I eventually managed. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        
+        <div>
+            <h2 id="contact-anchor">Contact</h2>
+            
+            <div class="contact-grid-container">  
+                <div class="contact-grid-item">
+                    
+                </div>
+                <div class="contact-grid-item">
+                    <p>
+                    <form id="contact-form" action="#">
+                        <p>If you want to contact me, please fill out the form below and I will get back with you.</p><br>
+                        <p>
+                            <label for="firstName">First Name: </label>
+                            <input type="text" id="firstName" placeholder="First Name">
+                            <br>
+                        </p>
+                        <p>
+                            <label for="lastName">Last Name: </label>
+                            <input type="text" id="lastName" placeholder="Last Name">
+                            <br>
+                        </p>
+                        <p>
+                            <label for="emailAddress">Email Address: </label>
+                            <input type="text" id="emailAddress" placeholder="Email Address">
+                            <br>
+                        </p>
+                        <p>
+                            <label for="message">Message:</label>
+                            <br>
+                            <textarea id="message" name="message" placeholder="Type your message here...">
+                            </textarea>
+                            <br>
+                        </p>
+                        <p>
+                            <div class="contact-button-grid-container">
+                                <div class="contact-button-grid-item">
+                                    
+                                </div>
+                                <div class="contact-button-grid-item">
+                                    <img id="contact-button-small" src="buttons/button_send_message.png" alt="Contact Me">
+                                </div>
+                                <div class="contact-button-grid-item">
+                                    
+                                </div>
+                            </div>
+                        </p>
+                    </form>
+                    </p>
+                </div>              
+                <div class="contact-grid-item">
+                    
+                    <h3>Contact Me</h3>
+                    <figure>
+                        <img src="images/me.jpg" alt="Me">
+                        <figcaption>Contact Me</figcaption>
+                    </figure>                            
+                    
+                </div>     
+                <div class="contact-grid-item">
+                    
+                </div>           
+            </div>
+        </div>
+    </body>
+</html>

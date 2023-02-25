@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('montserratalternates-regular-webfont.woff') format('woff'),
+         url('montserratalternates-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+header
+{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color:darkslategrey;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px
+}
+
+#navbar
+{
+    overflow: hidden;
+    background-color: #77848E;
+    border-bottom: 15px solid #5d6b75;
+    
+    
+}
+
+#navbar a
+{
+    float: left;
+    display: block;   
+    text-align: center;    
+}
+
+.nav-grid-container
+{    
+    display: grid;     
+    grid-template-columns: auto auto auto;
+    
+}
+
+.nav-grid-item
+{
+    display: grid; 
+    padding: 5px;    
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #565656;   
+    align-content: center;
+}
+
+
+h1
+{
+    text-align:center;
+}
+
+
+h2
+{
+    text-align:center;
+    color:whitesmoke;
+    font-weight:bold;
+    text-decoration: underline;
+    
+}
+
+
+h3
+{
+    text-align:center;
+    color:#deb2cc;
+    font-weight:bold;
+}
+
+p
+{
+    color: whitesmoke;
+}
+
+figure
+{
+    text-align: center;
+}
+
+
+figcaption
+{
+    color:tan;
+    font-style:italic;
+    font-size:15px;
+}
+
+
+.hobbies-grid-container
+{
+    display:grid;
+    border-radius:15px;
+    grid-template-columns: auto auto auto;
+    
+    padding-bottom:50px;
+}
+
+
+.hobbies-grid-item
+{
+    display: grid;
+    border-style: hidden;
+    padding: 5px;
+}
+
+#hobbies-anchor
+{
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
+
+.experience-grid-container
+{
+    display:grid;
+    border-radius:15px;    
+    grid-template-columns: auto auto auto;
+    padding-bottom:50px;
+}
+
+
+.experience-grid-item
+{
+    display:grid;
+    border-style:hidden;
+    padding: 5px;       
+}
+
+#experience-anchor
+{
+    padding-top:100px;
+    padding-bottom:50px   
+}
+
+
+.contact-grid-container
+{
+    display:grid;  
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.contact-grid-item
+{
+    display:grid;
+    padding: 5px;       
+}
+
+#contact-anchor
+{
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.contact-button-grid-container
+{
+    display:grid;
+    grid-template-columns:165px auto auto;
+}
+.contact-button-grid-item
+{
+    display:grid;
+}
+
+textarea
+{
+    background-color:whitesmoke;
+    height:200px;
+    width:450px;
+    padding:10px;
+    border:2px solid #56565696;
+    border-radius:5px;
+    box-sizing:border-box;
+    margin-top:10px;
+    margin-bottom:15px;
+    resize:none;
+    
+}
+
+input[type=text]
+{
+    border:2px solid #56565696;
+    border-radius: 5px;
+    box-sizing:border-box;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+.card
+{
+    box-shadow:0 4px 8px 0 rgb(0,0,0,0.2);
+    transition:0.3s;
+}
+
+
+.card-title
+{
+    text-align:center;
+    font-size: 22px;
+    color:#deb2cc;
+    font-weight:bold;
+}
+
+
+.card-content
+{
+    padding: 2px 16px;
+}
+
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
+}
