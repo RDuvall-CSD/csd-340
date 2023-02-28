@@ -218,3 +218,30 @@ input[type=text]
 {
     box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
 }
+
+footer
+{
+    background-color: #5d6b75;
+    position: absolute;
+    left: 0;   
+    width: 100%;
+    overflow:hidden;
+}
+
+#about-footer
+{
+    
+    margin-top: 47px;
+    
+}
+
+footer p
+{
+    color:white;
+    font-weight:400;
+    font-size:12px;
+    float: left;
+    padding-right: 10px;
+    margin-left:15px;
+    font-style:italic;
+}
